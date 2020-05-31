@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/form.css">
+</head>
+<body>
+	<h2><u> fill all the questions correctly</u></h2>
+	<form method="POST"><h2>
+		Name:<br><input type="text" placeholder="Firstname" required="" name="Firstname"><br>
+		Surname:<br><input type="text" placeholder="Lastname" required="" name="Lastname"><br>
+		Email:<br><input type="Email" placeholder="Email" required="" name="Email"><br>
+		Password:<br><input type="Password" min="5" placeholder="Create Password" required="" name="Password"><br>
+		Password:<br><input type="Password" min="5" placeholder="Repeat Password" required="" name="Password"><br>
+		Date: <input type="Date" required="" name="Date"> <br>
+		Gender: <select name="Gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select><br>
+		Role:<br> <input type="checkbox" name="Customer">Customer <br>
+		<input type="checkbox" name="Contractor">Contractor <br>
+		<input type="checkbox" name="Both">Both <br>
+		Expectation: <textarea name="message" rows="5" cols="10" placeholder="BRIEFLY Tell us about yourself "></textarea><br>
+		<input class="me" type="Submit" value="Register">
+		<input class="me btn" type="Reset" value="Restart">
+	</h2></form>
+	<a href="index.html">
+		<h4> Go Back</h4>
+	</a>
+</body>
+</html>

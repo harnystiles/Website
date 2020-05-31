@@ -1,0 +1,35 @@
+body {
+	background: url(assets/img/bg5.jpg) no-repeat center center fixed;
+	-moz-backgroud-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+h2 {
+	color: firebrick;
+}
+
+.me {
+	background-color: magenta;
+	border-color: magenta;
+	border-radius: 4px;
+	padding: 0.5em 0.5em;
+	color: oldlace;
+}
+
+.me:hover {
+	border-width: 5px;
+	background-color: paleturquoise;
+	border-color: paleturquoise;
+}
+
+.btn {
+	background-color: rgb(7, 72, 102);
+	border-color: rgb(7, 72, 102);
+	border-radius: 4px;
+	padding: 0.5em 0.5em;
+	color: oldlace;
+}

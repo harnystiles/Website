@@ -1,0 +1,26 @@
+
+.image-clients {
+    border-radius: 50%;
+    border: 400 400;
+}
+
+.btn-white {
+    color: rgb(244, 248, 248) !important ;
+    background-color: #8be7bc !important ;
+    border-color: #8be7bc ;
+}
+.btn-white: hover { 
+    border-width:10px !important ;
+}
+.title {
+    text-align: center !important ;
+}
+.content {
+    text-align: center !important;
+    padding: 15px !important;
+    
+}
+.pic {
+    border-radius: 50%;
+    height: 150px
+}
